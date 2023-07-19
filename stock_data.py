@@ -10,12 +10,12 @@ s = requests.get('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.c
 apple = yf.Ticker("AAPL")
 amd = yf.Ticker("AMD")
 
-with open(r'D:\OneDrive - APL Logistics Ltd\Documents\Git\DS\apple.json','r') as json_file:
+with open('apple.json','r') as json_file:
     apple_info = json.load(json_file)
     # Print the type of data variable    
 apple_info
 
-with open(r'D:\OneDrive - APL Logistics Ltd\Documents\Git\DS\amd.json','r') as json_file1:
+with open('amd.json','r') as json_file1:
     amd_info = json.load(json_file1)
     # Print the type of data variable    
 amd_info
